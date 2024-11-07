@@ -1,0 +1,5 @@
+COLORS
+
+green #44FFA1
+purple 900 #24053E
+purple 500 #584D62

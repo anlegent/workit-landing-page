@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.FONTSET1 {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+}
+.FONTSET2 {
+  font-family: "Manrope", sans-serif;
+  font: 400;
+}
+.FONTSET3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+
+.illustration {
+  background-color: #24053e;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.btntext {
+  color: #24053e;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline #44ffa1;
+}
+.btn {
+  background-color: #44ffa1;
+  padding: 15px;
+}
+
+.mainelements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num {
+  padding: 12px 17px;
+  border: 1px #584d62 solid;
+  border-radius: 50%;
+  color: #24053e;
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcf8ff;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.valuecontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.valuetitle {
+  color: #24053e;
+}
+
+.valuedesc {
+  color: #24053e;
+}
+
+.phone {
+  width: 50%;
+  position: relative;
+  top: 150px;
+}
+
+.profilepicture {
+  background-color: #44ffa1;
+  width: 300px;
+  border-radius: 300px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  margin: 150px 50px 50px 50px;
+}
+
+.ctacontent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-color: #24053e;
+  padding: 30px;
+  height: 200px;
+  position: relative;
+  right: 50px;
+  top: 95px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.learnm {
+  position: relative;
+  top: 100px;
+}
+
+.maindesc {
+  position: relative;
+  top: 40px;
+}
